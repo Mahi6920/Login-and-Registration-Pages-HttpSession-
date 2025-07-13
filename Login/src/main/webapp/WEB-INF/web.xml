@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	<servlet>
+	<servlet-name>abc</servlet-name>
+	<servlet-class>Login.login</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+	<servlet-name>abc</servlet-name>
+	<url-pattern>/login</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>abcd</servlet-name>
+	<servlet-class>Login.Verify</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+	<servlet-name>abcd</servlet-name>
+	<url-pattern>/verify</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>abce</servlet-name>
+	<servlet-class>Registration.registration</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+	<servlet-name>abce</servlet-name>
+	<url-pattern>/registration</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>a</servlet-name>
+	<servlet-class>Registration.verify</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+	<servlet-name>a</servlet-name>
+	<url-pattern>/Rverify</url-pattern>
+	</servlet-mapping>
+	
+	
+</web-app>
